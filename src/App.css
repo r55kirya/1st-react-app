@@ -1,32 +1,5 @@
 h1 {
-  text-align: center;
-  font-size: 44px;
-  line-height: 100px;
-}
-
-.row {
-  display: flex;
-  justify-content: space-around;
-  width: 600px;
-  margin: 0 auto;
   font-size: 33px;
-}
-
-.row a {
-  text-decoration: none;
-  padding: 0 30px;
-}
-
-.row a:nth-child(1) {
-  color: aquamarine;
-}
-.row a:nth-child(2) {
-  color: red;
-}
-.row a:nth-child(3) {
-  color: chartreuse;
-}
-.row a:nth-child(4) {
-  color: fuchsia;
+  margin: 0;
 }
 
