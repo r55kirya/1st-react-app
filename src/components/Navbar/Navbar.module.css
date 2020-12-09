@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 50px auto;
+    font-size: 33px;
+}
+
+.row a {
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.row a:nth-child(1) {
+    color: black;
+}
+.row a:nth-child(2) {
+    color: aquamarine;
+}
+.row a:nth-child(3) {
+    color: red;
+}
+.row a:nth-child(4) {
+    color: chartreuse;
+}
+.row a:nth-child(5) {
+    color: fuchsia;
+}
