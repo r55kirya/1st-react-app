@@ -6,8 +6,8 @@ const Tournaments = () => {
 
     return (
         <div className={s.heading}>
-            <img src={anons1} />
-            <img src={anons2} />
+            <img src={anons1} alt={'gg'}/>
+            <img src={anons2} alt={'gg'}/>
         </div>
     )
 

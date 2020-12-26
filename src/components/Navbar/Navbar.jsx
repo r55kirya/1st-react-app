@@ -6,11 +6,11 @@ const Navbar = () => {
     return (
 
         <div className={s.row}>
-            <Link to="">MainPage</Link>
             <Link to="/start">Start</Link>
-            <Link to="/playgrounds">Playgrounds</Link>
-            <Link to="/trainers">Trainers</Link>
+            <Link to="/playgroundslist">Playgrounds</Link>
+            <Link to="/coaches">Coaches</Link>
             <Link to="/tournaments">Tournaments</Link>
+            <Link to="/login">Login</Link>
         </div>
 
     )

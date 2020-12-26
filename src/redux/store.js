@@ -1,10 +1,18 @@
-import {combineReducers, createStore} from "redux"
-import playgroundsReducer from "./playgrounds-reducer";
+import {applyMiddleware, combineReducers, createStore} from "redux"
+import playgroundsListReducer from "./playgroundsList-reducer";
+import playgroundReducer from "./playground-reducer";
+import { reducer as formReducer } from 'redux-form'
+import thunkMiddleware from 'redux-thunk'
+
 
 let reducers = combineReducers({
-    playgrounds: playgroundsReducer
+    playgroundsListPage: playgroundsListReducer,
+    playgroundPage: playgroundReducer,
+    form: formReducer
 })
 
-let store = createStore(reducers)
+let store = createStore(reducers, applyMiddleware(thunkMiddleware))
+
+window.store = store
 
 export default store

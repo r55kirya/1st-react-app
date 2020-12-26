@@ -12,17 +12,14 @@
 }
 
 .row a:nth-child(1) {
-    color: black;
-}
-.row a:nth-child(2) {
     color: aquamarine;
 }
-.row a:nth-child(3) {
+.row a:nth-child(2) {
     color: red;
 }
-.row a:nth-child(4) {
+.row a:nth-child(3) {
     color: chartreuse;
 }
-.row a:nth-child(5) {
+.row a:nth-child(4) {
     color: fuchsia;
 }
