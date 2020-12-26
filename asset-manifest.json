@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/1st-react-app/static/css/main.92e4bfee.chunk.css",
+    "main.js": "/1st-react-app/static/js/main.017b4a14.chunk.js",
+    "main.js.map": "/1st-react-app/static/js/main.017b4a14.chunk.js.map",
+    "runtime-main.js": "/1st-react-app/static/js/runtime-main.5df316c3.js",
+    "runtime-main.js.map": "/1st-react-app/static/js/runtime-main.5df316c3.js.map",
+    "static/js/2.ce9e69dd.chunk.js": "/1st-react-app/static/js/2.ce9e69dd.chunk.js",
+    "static/js/2.ce9e69dd.chunk.js.map": "/1st-react-app/static/js/2.ce9e69dd.chunk.js.map",
+    "static/js/3.fdd20f5d.chunk.js": "/1st-react-app/static/js/3.fdd20f5d.chunk.js",
+    "static/js/3.fdd20f5d.chunk.js.map": "/1st-react-app/static/js/3.fdd20f5d.chunk.js.map",
+    "index.html": "/1st-react-app/index.html",
+    "static/css/main.92e4bfee.chunk.css.map": "/1st-react-app/static/css/main.92e4bfee.chunk.css.map",
+    "static/js/2.ce9e69dd.chunk.js.LICENSE.txt": "/1st-react-app/static/js/2.ce9e69dd.chunk.js.LICENSE.txt",
+    "static/media/anons1.d54035be.jpg": "/1st-react-app/static/media/anons1.d54035be.jpg",
+    "static/media/anons2.2654d485.jpg": "/1st-react-app/static/media/anons2.2654d485.jpg",
+    "static/media/preloader.0cc9112a.gif": "/1st-react-app/static/media/preloader.0cc9112a.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5df316c3.js",
+    "static/js/2.ce9e69dd.chunk.js",
+    "static/css/main.92e4bfee.chunk.css",
+    "static/js/main.017b4a14.chunk.js"
+  ]
+}
