@@ -1,5 +1,7 @@
+$main-color: black;
+
 body {
-  background-color: black;
+  background-color: $main-color;
 }
 
 code {
@@ -11,3 +13,5 @@ code {
   width: 1228px;
   margin: 0 auto;
 }
+
+
