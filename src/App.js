@@ -8,6 +8,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import PlaygroundContainer from "./components/Playground/PlaygroundContainer";
 import Login from "./components/Login/Login";
+import Header from "./components/Header/Header";
 
 const App = () => {
 
@@ -15,7 +16,7 @@ const App = () => {
 
         <div className="App">
 
-            <Navbar/>
+            <Header/>
 
             <Route path="/start">
                 <Start/>

@@ -1,16 +1,16 @@
 import {Link} from "react-router-dom";
 import React from "react";
-import s from './Navbar.module.css'
+import styles from './Navbar.module.css'
 
 const Navbar = () => {
     return (
 
-        <div className={s.row}>
-            <Link to="/start">Start</Link>
-            <Link to="/playgroundslist">Playgrounds</Link>
-            <Link to="/coaches">Coaches</Link>
-            <Link to="/tournaments">Tournaments</Link>
-            <Link to="/login">Login</Link>
+        <div className={styles.row}>
+            <Link to="/start">Старт</Link>
+            <Link to="/playgroundslist">Площадки</Link>
+            <Link to="/coaches">Тренеры</Link>
+            <Link to="/tournaments">Турниры</Link>
+            <Link to="/login">Логин</Link>
         </div>
 
     )
