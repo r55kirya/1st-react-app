@@ -1,0 +1,44 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.card {
+  @include flexbox();
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 15px;
+  margin: 0 5px 65px 5px;
+  background-color: $backgroundColor2;
+  border: 1px solid $headingColor3;
+  }
+
+.img {
+  margin-bottom: 10px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: $headingColor2;
+  margin-bottom: 10px;
+}
+
+.adress {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: $headingColor3;
+  margin-bottom: 15px;
+}

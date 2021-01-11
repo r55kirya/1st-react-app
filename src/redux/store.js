@@ -3,11 +3,13 @@ import playgroundsListReducer from "./playgroundsList-reducer";
 import playgroundReducer from "./playground-reducer";
 import { reducer as formReducer } from 'redux-form'
 import thunkMiddleware from 'redux-thunk'
+import coachesListReducer from "./coaches-reducer";
 
 
 let reducers = combineReducers({
     playgroundsListPage: playgroundsListReducer,
     playgroundPage: playgroundReducer,
+    coachesListPage: coachesListReducer,
     form: formReducer
 })
 

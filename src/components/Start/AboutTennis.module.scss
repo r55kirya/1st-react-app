@@ -1,0 +1,55 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.sec {
+  padding-bottom: 60px;
+}
+
+.body {
+  background-color: $backgroundColor2;
+  @include flexbox();
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0 100px 0;
+  position: relative;
+}
+
+.titles {
+  @include flexbox();
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.title {
+  color: $headingColor2;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.text {
+  max-width: 750px;
+  text-align: left;
+  color: $textColor;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-top: 40px;
+}
+
+.text a {
+  color: $linkColor;
+}
+
+.racketL {
+  position: absolute;
+  top: -160px;
+  left: -80px;
+}
+
+.racketR {
+  position: absolute;
+  right: -130px;
+  bottom: -120px;
+  @include rotate(-65deg);
+}

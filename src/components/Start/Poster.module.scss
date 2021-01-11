@@ -1,0 +1,39 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.body {
+  @include flexbox();
+  height: 600px;
+  padding: 35px 0 0 0;
+}
+
+.text {
+  flex: 0 0 500px;
+  padding: 65px 25px 0 0;
+}
+
+.title {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  color: $headingColor2;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 25px;
+  line-height: 29px;
+  color: $headingColor3;
+}
+
+.subtitleAdd {
+  text-align: left;
+  font-size: 25px;
+  line-height: 29px;
+  color: $headingColor1;
+}
+
+.bg {
+  flex: 1 1 100%;
+}

@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0;
+}
+
+.logo, .info{
+    color: $headingColor1;
+    font-size: 30px;
+}
+
+.logo {
+    padding-right: 45px;
+}

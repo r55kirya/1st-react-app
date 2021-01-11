@@ -1,0 +1,21 @@
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.block {
+  @include flexbox();
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  color: rgba(72, 70, 70, 0.7);
+  font-weight: bold;
+  font-size: 150px;
+}
+
+.title {
+  color: $headingColor2;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+}

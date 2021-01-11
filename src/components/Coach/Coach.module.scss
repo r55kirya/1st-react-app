@@ -1,0 +1,39 @@
+@import "src/styles/variables";
+@import "src/styles/mixins";
+
+.body {
+  display: flex;
+  color: $headingColor3;
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: $headingColor3;
+  }
+}
+
+.info {
+  padding: 0 0 0 65px;
+}
+
+.avatar {
+  width: 375px;
+  height: 408px;
+  border: 1px solid $headingColor3;
+  padding: 15px;
+}
+
+.avatarImg {
+  height: 100%;
+  border: 1px solid $headingColor3;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: $headingColor2;
+  margin-bottom: 50px;
+}

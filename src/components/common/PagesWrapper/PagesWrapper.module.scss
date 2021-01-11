@@ -1,0 +1,11 @@
+@import "src/styles/variables";
+
+.wrapper {
+  background-color: $backgroundColor2;
+  padding: 65px;
+}
+
+.img {
+  height: 130px;
+  max-width: $mw+px;
+}

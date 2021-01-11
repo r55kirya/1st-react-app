@@ -1,9 +1,16 @@
-import s from './Start.module.css'
+import styles from './Start.module.scss'
+import Poster from "./Poster";
+import WhereToBegin from "./WhereToBegin";
+import AboutTennis from "./AboutTennis";
 
 const Start = () => {
 
     return (
-        <div className={s.heading}>start</div>
+        <div>
+            <Poster/>
+            <WhereToBegin/>
+            <AboutTennis/>
+        </div>
     )
 
 }

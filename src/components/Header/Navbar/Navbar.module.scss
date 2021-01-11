@@ -1,0 +1,14 @@
+@import "src/styles/mixins";
+@import "src/styles/variables";
+
+.row {
+    @include flexbox();
+    justify-content: space-between;
+    max-width: 450px;
+}
+
+.row a {
+    padding: 0 12.5px;
+    font-size: 20px;
+    color: $headingColor3;
+}

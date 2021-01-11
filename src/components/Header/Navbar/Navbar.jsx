@@ -5,13 +5,15 @@ import styles from './Navbar.module.scss'
 const Navbar = () => {
     return (
 
-        <div className={styles.row}>
+        <nav className={styles.row}>
+
             <Link to="/">Старт</Link>
             <Link to="/playgroundslist">Площадки</Link>
-            <Link to="/coaches">Тренеры</Link>
+            <Link to="/coacheslist">Тренеры</Link>
             <Link to="/tournaments">Турниры</Link>
-            <Link to="/login">Логин</Link>
-        </div>
+            <Link to="/test">Test</Link>
+
+        </nav>
 
     )
 }
