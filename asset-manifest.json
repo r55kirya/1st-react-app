@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/1st-react-app/static/css/main.92e4bfee.chunk.css",
-    "main.js": "/1st-react-app/static/js/main.017b4a14.chunk.js",
-    "main.js.map": "/1st-react-app/static/js/main.017b4a14.chunk.js.map",
-    "runtime-main.js": "/1st-react-app/static/js/runtime-main.5df316c3.js",
-    "runtime-main.js.map": "/1st-react-app/static/js/runtime-main.5df316c3.js.map",
-    "static/js/2.ce9e69dd.chunk.js": "/1st-react-app/static/js/2.ce9e69dd.chunk.js",
-    "static/js/2.ce9e69dd.chunk.js.map": "/1st-react-app/static/js/2.ce9e69dd.chunk.js.map",
-    "static/js/3.fdd20f5d.chunk.js": "/1st-react-app/static/js/3.fdd20f5d.chunk.js",
-    "static/js/3.fdd20f5d.chunk.js.map": "/1st-react-app/static/js/3.fdd20f5d.chunk.js.map",
+    "main.css": "/1st-react-app/static/css/main.10e7c995.chunk.css",
+    "main.js": "/1st-react-app/static/js/main.3debc61a.chunk.js",
+    "main.js.map": "/1st-react-app/static/js/main.3debc61a.chunk.js.map",
+    "runtime-main.js": "/1st-react-app/static/js/runtime-main.1c43412d.js",
+    "runtime-main.js.map": "/1st-react-app/static/js/runtime-main.1c43412d.js.map",
+    "static/js/2.08b8273b.chunk.js": "/1st-react-app/static/js/2.08b8273b.chunk.js",
+    "static/js/2.08b8273b.chunk.js.map": "/1st-react-app/static/js/2.08b8273b.chunk.js.map",
+    "static/js/3.8a572359.chunk.js": "/1st-react-app/static/js/3.8a572359.chunk.js",
+    "static/js/3.8a572359.chunk.js.map": "/1st-react-app/static/js/3.8a572359.chunk.js.map",
     "index.html": "/1st-react-app/index.html",
-    "static/css/main.92e4bfee.chunk.css.map": "/1st-react-app/static/css/main.92e4bfee.chunk.css.map",
-    "static/js/2.ce9e69dd.chunk.js.LICENSE.txt": "/1st-react-app/static/js/2.ce9e69dd.chunk.js.LICENSE.txt",
-    "static/media/anons1.d54035be.jpg": "/1st-react-app/static/media/anons1.d54035be.jpg",
-    "static/media/anons2.2654d485.jpg": "/1st-react-app/static/media/anons2.2654d485.jpg",
-    "static/media/preloader.0cc9112a.gif": "/1st-react-app/static/media/preloader.0cc9112a.gif"
+    "static/css/main.10e7c995.chunk.css.map": "/1st-react-app/static/css/main.10e7c995.chunk.css.map",
+    "static/js/2.08b8273b.chunk.js.LICENSE.txt": "/1st-react-app/static/js/2.08b8273b.chunk.js.LICENSE.txt",
+    "static/media/anons_photo.c74cb2a6.png": "/1st-react-app/static/media/anons_photo.c74cb2a6.png",
+    "static/media/coach_man.c624d5f8.png": "/1st-react-app/static/media/coach_man.c624d5f8.png",
+    "static/media/coaches_bg1.75e929f0.png": "/1st-react-app/static/media/coaches_bg1.75e929f0.png",
+    "static/media/coaches_bg2.06f911d2.png": "/1st-react-app/static/media/coaches_bg2.06f911d2.png",
+    "static/media/girlMain.9d60faec.png": "/1st-react-app/static/media/girlMain.9d60faec.png",
+    "static/media/playgroundCardPhoto.5ead3b97.png": "/1st-react-app/static/media/playgroundCardPhoto.5ead3b97.png",
+    "static/media/playground_ava.5a72d1c9.png": "/1st-react-app/static/media/playground_ava.5a72d1c9.png",
+    "static/media/playgrounds_bg1.ae9d5078.png": "/1st-react-app/static/media/playgrounds_bg1.ae9d5078.png",
+    "static/media/preloader.0cc9112a.gif": "/1st-react-app/static/media/preloader.0cc9112a.gif",
+    "static/media/racket.3abffa73.png": "/1st-react-app/static/media/racket.3abffa73.png",
+    "static/media/tournaments_bg1.412cd75d.png": "/1st-react-app/static/media/tournaments_bg1.412cd75d.png",
+    "static/media/tournaments_bg2.3bed3355.png": "/1st-react-app/static/media/tournaments_bg2.3bed3355.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5df316c3.js",
-    "static/js/2.ce9e69dd.chunk.js",
-    "static/css/main.92e4bfee.chunk.css",
-    "static/js/main.017b4a14.chunk.js"
+    "static/js/runtime-main.1c43412d.js",
+    "static/js/2.08b8273b.chunk.js",
+    "static/css/main.10e7c995.chunk.css",
+    "static/js/main.3debc61a.chunk.js"
   ]
 }
