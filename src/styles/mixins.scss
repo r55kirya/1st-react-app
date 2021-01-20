@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin anim($time, $delay) {
   -webkit-transition: all $time ease $delay;
   -moz-transition: all $time ease $delay;
@@ -75,4 +77,13 @@
   -ms-flex-order: $val;
   -webkit-order: $val;
   order: $val;
+}
+
+
+@mixin textFontSize () {
+  text-align: left;
+  color: $textColor;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
 }

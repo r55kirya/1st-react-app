@@ -12,8 +12,8 @@ const PlaygroundCardsContainer = (props) => {
     const dispatch = useDispatch()
 
     useEffect(()=> {
-        dispatch(getUsersThunkCreator('ghbdtn'))
-    },[])
+        dispatch(getUsersThunkCreator())
+    },[dispatch])
 
     return (
         <>

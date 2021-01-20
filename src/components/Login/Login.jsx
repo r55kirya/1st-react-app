@@ -1,37 +1,37 @@
 import React from 'react'
-import {Field, reduxForm} from "redux-form";
+import {Link} from "react-router-dom";
+import styles from "./Login.module.scss"
+import {useForm} from "react-hook-form";
+import {CreateRegistrationInput} from "../common/CreateField/CreateField";
+import FormButton from "../common/FormButton/FormButton";
 
+const LoginForm = () => {
+    const {register, errors, handleSubmit} = useForm()
 
-const LoginForm = (props) => {
-    return (
-        <form onSubmit={props.handleSubmit}>
-            <div>
-                <Field placeholder={"Login"} name={'login'} component={'input'} type={'text'} />
-            </div>
-            <div>
-                <Field placeholder={"Password"} name={'password'} component={'input'} type={'password'}/>
-            </div>
-            <div>
-                <Field component={'input'} name={'rememberMe'} type={"checkbox"}/> remember me
-            </div>
-            <div>
-                <button>Login</button>
-            </div>
-        </form>
-    )
-}
-
-const LoginReduxForm = reduxForm({form: 'login'})(LoginForm)
-
-const Login = () => {
     const onSubmit = (formData) => {
         console.log(formData)
     }
 
     return (
-        <div>
-            <h1>Login</h1>
-            <LoginReduxForm onSubmit={onSubmit} />
+        <form onSubmit={handleSubmit(onSubmit)}>
+            {CreateRegistrationInput('username', 'Логин емайл или телефон', 'text', errors, register({
+                required: 'nado vasya nado',
+                maxLength: {value: 10, message: 'dohuya bukov'}
+            }))}
+            {CreateRegistrationInput('password', 'Пароль', 'password', errors, register({required: 'zapolni padla'}))}
+            <FormButton text="Вход"/>
+        </form>
+    )
+}
+
+const Login = () => {
+
+    return (
+        <div className={styles.body}>
+            <div className={styles.title}>Логин</div>
+            <LoginForm/>
+            <div className={styles.link}><Link to="/recoverypassword">Забыли пароль?</Link></div>
+            <div className={styles.link}><Link to="/registration">Создать аккаунт</Link></div>
         </div>
     )
 }

@@ -13,5 +13,10 @@ export const jsonPlaceHolderAPI = {
     getUsers () {
         return instance.get('users')
             .then(res => res.data)
+    },
+    postTest (data) {
+        return instance.post('posts', data)
+            .then(res => console.log(res))
     }
+
 }

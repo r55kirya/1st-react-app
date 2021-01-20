@@ -2,7 +2,7 @@ import PlaygroundCardsContainer from "./PlaygroundCardsContainer";
 import Search from "../common/Search/Search";
 import Title from "../common/Title/Title";
 import React from "react";
-import styles from "./PlaygroundsList.module.scss";
+// import styles from "./PlaygroundsList.module.scss";
 
 const PlaygroundsList = () => {
 

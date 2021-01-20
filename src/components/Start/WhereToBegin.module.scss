@@ -12,9 +12,5 @@
 
 .text {
   max-width: 750px;
-  text-align: left;
-  color: $textColor;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 27px;
+  @include textFontSize
 }

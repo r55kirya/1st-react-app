@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  &>a {
+    color: #F0F13E;
+    padding: 0 10px;
+    border: 1px solid #F0F13E;
+  }
+}

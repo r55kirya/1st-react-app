@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+
+.reg {
+  margin-bottom: 15px;
+  input {
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: $headingColor3;
+    color: $backgroundColor2;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 10px;
+  }
+}
+
+.error {
+  input {
+    border: 3px solid red;
+  }
+}
+
+
+.per {
+  padding: 10px 0;
+  input {
+    height: 20px;
+    border-radius: 30px;
+    padding: 10px ;
+    width: 300px;
+    text-align: left;
+  }
+
+  textarea {
+    border-radius: 30px;
+    height: 100px;
+    width: 300px;
+    resize: none;
+  }
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}

@@ -13,7 +13,7 @@ const CoachesCardsContainer = () => {
 
     useEffect(()=> {
         dispatch(getCoachesThunkCreator())
-    }, [])
+    }, [dispatch])
 
     return (
         <>

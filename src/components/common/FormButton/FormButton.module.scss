@@ -1,0 +1,19 @@
+@import "src/styles/variables";
+
+.btn {
+  margin-bottom: 10px;
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: $headingColor1;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24;
+    color: $backgroundColor2;
+  }
+}

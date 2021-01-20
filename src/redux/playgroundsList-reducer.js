@@ -97,6 +97,7 @@ let items = [
 ] // временно пока нет сервера
 
 export const getUsersThunkCreator = () => {
+
     return (dispatch) => {
         dispatch(toggleIsFetching(true))
         axios.get('https://jsonplaceholder.typicode.com/users')
