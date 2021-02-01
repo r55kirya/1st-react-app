@@ -12,12 +12,16 @@ const FormControl = ({view, errors, name, children}) => {
             [styles.error]: errors[name]
         })}>
             {children}
-            <ErrorMessage errors={errors} name={name}/>
+            <ErrorMessage
+                errors={errors}
+                name={name}
+                render={({ message }) => <div className={styles.errorMessage}>{message}</div>}
+            />
         </div>
     )
 }
 
-export const CreateRegistrationInput = (name, placeholder, type, errors = {}, ref) => {
+export const createRegistrationInput = (name, placeholder, type, errors = {}, ref) => {
     return (
         <FormControl errors={errors} name={name} view="reg">
           <input name={name} placeholder={placeholder} type={type} ref={ref}/>
@@ -25,7 +29,7 @@ export const CreateRegistrationInput = (name, placeholder, type, errors = {}, re
     )
 }
 
-export const CreatePersonalInput = (type, name, text, defaultValue, errors = {}, ref) => {
+export const createPersonalInput = (type, name, text, defaultValue, errors = {}, ref) => {
     return (
         <FormControl errors={errors} name={name} view="per">
             <div className={styles.title}>{text}</div><input name={name} type={type} ref={ref} defaultValue={defaultValue}/>
@@ -33,7 +37,7 @@ export const CreatePersonalInput = (type, name, text, defaultValue, errors = {},
     )
 }
 
-export const CreatePersonalTextarea = (name, text, errors = {}, ref) => {
+export const createPersonalTextarea = (name, text, errors = {}, ref) => {
     return (
         <FormControl errors={errors} name={name} view="per">
             <div className={styles.title}>{text}</div><textarea name={name} ref={ref}/>

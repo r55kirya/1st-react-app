@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 import styles from "./Login.module.scss"
 import {useForm} from "react-hook-form";
-import {CreateRegistrationInput} from "../common/CreateField/CreateField";
+import {createRegistrationInput} from "../common/CreateField/CreateField";
 import FormButton from "../common/FormButton/FormButton";
 
 const LoginForm = () => {
@@ -14,11 +14,11 @@ const LoginForm = () => {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
-            {CreateRegistrationInput('username', 'Логин емайл или телефон', 'text', errors, register({
+            {createRegistrationInput('username', 'Логин емайл или телефон', 'text', errors, register({
                 required: 'nado vasya nado',
                 maxLength: {value: 10, message: 'dohuya bukov'}
             }))}
-            {CreateRegistrationInput('password', 'Пароль', 'password', errors, register({required: 'zapolni padla'}))}
+            {createRegistrationInput('password', 'Пароль', 'password', errors, register({required: 'zapolni padla'}))}
             <FormButton text="Вход"/>
         </form>
     )

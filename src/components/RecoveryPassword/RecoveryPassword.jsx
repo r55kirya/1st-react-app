@@ -35,7 +35,6 @@ const RecoveryPassword = () => {
     return (
         <div>
             <RecoveryPasswordForm/>
-            <div className={styles.link}><Link to="/privacy">Политика конфиденциальности</Link></div>
         </div>
     )
 }

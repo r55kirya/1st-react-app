@@ -22,6 +22,7 @@ const Playground = ({name, adress, phone, about, cost, workingTime, social, webs
                 <div><span>Время работы: </span>{workingTime}</div>
                 <div><span>Информация: </span>{about}</div>
                 <div><span>Сайт: </span>{website}</div>
+                <div><span>Тренера: </span>{website}</div>
             </div>
         </div>
     )

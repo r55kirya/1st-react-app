@@ -18,6 +18,7 @@ const Coach = ({name, phone, aboutMe, social, cost}) => {
                     <span>{social.instagram}</span>
                 </div>
                 <div><span>О себе: </span>{aboutMe}</div>
+                <div><span>Площадки: </span>{aboutMe}</div>
             </div>
         </div>
     )
